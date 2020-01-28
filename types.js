@@ -1,0 +1,48 @@
+export const GET_NAVIGATION_MAIN = 'GET_NAVIGATION_MAIN';
+
+/*
+*   Main modal
+*/
+export const ACTIVE_MODAL_STATE = 'ACTIVE_MODAL_STATE';
+export const DEACTIVE_MODAL_STATE = 'DEACTIVE_MODAL_STATE';
+
+/*
+*  Success  modal
+*/
+export const DEACTIVE_SUCCESS_MODAL_STATE = 'DEACTIVE_SUCCESS_MODAL_STATE';
+export const ACTIVE_SUCCESS_MODAL_STATE = 'ACTIVE_SUCCESS_MODAL_STATE';
+
+/*
+*  Overlay layer
+*/
+export const DEACTIVE_OVERLAY_STATE = 'DEACTIVE_OVERLAY_STATE';
+export const ACTIVE_OVERLAY_STATE = 'ACTIVE_OVERLAY_STATE';
+/*
+* Service modal
+*/
+export const DEACTIVE_SERVICE_MODAL_STATE = 'DEACTIVE_SERVICE_MODAL_STATE';
+export const ACTIVE_SERVICE_MODAL_STATE = 'ACTIVE_SERVICE_MODAL_STATE';
+
+
+
+/*
+* Service state
+*/
+export const CHANGE_SERVICE_STATE = 'CHANGE_SERVICE_STATE';
+
+
+/*
+* Service  active tab state
+*/
+export const CHANGE_SERVICE_TAB_STATE = 'CHANGE_SERVICE_TAB_STATE';
+
+
+
+
+
+
+
+
+
+
+

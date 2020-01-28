@@ -1,0 +1,109 @@
+.page-team
+
+  .hero-section
+    margin-bottom: 90px
+
+  .team-wrap-row
+    margin: 0 -15px
+
+    .item-team
+      margin: 0 8px 70px
+
+      .img-block
+        margin-bottom: 22px
+
+        img
+          max-width: 100%
+
+
+      h3
+        font-weight: 600
+        font-size: 1rem
+        margin: 0 0 5px
+
+      .position
+        img
+          width: 20px!important
+          height: 20px!important
+          min-width: 20px
+          min-height: 20px
+        .text
+          font-size: 0.9333rem
+          margin-left: 9px
+          max-width: 225px
+
+    .slick-dots
+      position: relative
+      margin: 25px 0 0 0
+      bottom: 0
+      li
+        margin: 0 8px
+        width: 10px
+        height: 10px
+        &.slick-active
+          &::before
+            content: ""
+            display: block
+            position: absolute
+            top: -3px
+            left: -3px
+            width: 16px
+            height: 16px
+            border: 1px solid #009160
+            border-radius: 50%
+
+
+          button
+            background: #009160!important
+
+        button
+          width: 10px
+          height: 10px
+          background: #7A7A7A
+          border-radius: 50%
+          &::before
+            display: none
+
+    .slick-arrow
+      transition: all .3s
+      margin-top: -105px
+      z-index: 2
+
+      &:hover
+        opacity: .5 !important
+
+    .slick-next
+      background: url("/static/arrrow.png")
+      width: 11px
+      height: 20px
+      right: -25px
+
+      &::before
+        display: none
+
+    .slick-prev
+      background: url("/static/arrrow.png")
+      transform: rotateZ(180deg)
+      width: 11px
+      height: 20px
+      left: -25px
+
+      &::before
+        display: none
+
+@media (max-width: 600px)
+  .page-team
+    .team-wrap-row
+      margin: 0 0 35px
+      .item-team
+        margin: 0
+
+        .img-block
+          img
+            width: 100%
+
+
+
+
+
+

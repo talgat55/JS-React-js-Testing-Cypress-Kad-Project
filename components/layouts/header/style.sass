@@ -1,0 +1,135 @@
+$color_white: #fff
+header
+  padding: 13px 0
+  background: $color_white
+  opacity: 0.8
+  position: absolute
+  z-index: 99
+  left: 0
+  right: 0
+
+  .top
+    padding: 8px 0 20px
+
+  .bottom
+    .main-navigation
+      margin: 0
+      padding: 0
+
+      li
+        list-style: none
+
+        a
+          white-space: nowrap
+          text-decoration: none
+          color: #000000
+          font-size: 1.0667rem
+          padding: 0 5px
+          transition: all .3s
+          &:focus
+            outline: none
+
+          &:hover
+            color: #009160
+
+
+      li:last-child
+        a
+          padding-right: 0
+
+
+.bm-burger-button
+  display: none
+  position: fixed
+  width: 36px
+  height: 30px
+  right: 23px
+  top: 47px
+
+.bm-burger-bars
+  background: #373a47
+
+.bm-burger-bars-hover
+  background: #a90000
+
+.bm-cross-button
+  height: 24px
+  width: 24px
+
+.bm-cross
+  background: #bdc3c7
+
+
+.bm-menu-wrap
+  position: fixed
+  height: 100%
+
+.bm-menu
+  background: #373a47
+  padding: 2.5em 1.5em 0
+  font-size: 1.15em
+
+.bm-morph-shape
+  fill: #373a47
+
+.bm-item-list
+  color: #b8b7ad
+  padding: 0.8em
+.bm-item
+  display: inline-block
+  color: #fff
+  text-decoaration: none
+
+  &:active,
+  &:focus
+    outline: none
+    color:  #fff
+    text-decoration: none
+
+.bm-overlay
+  background: rgba(0, 0, 0, 0.3)
+
+@media (max-width: 1200px)
+  .logo
+    img
+      height: 80px
+
+  header
+    .bottom
+      .main-navigation
+        li
+          a
+            font-size: 1rem
+            padding: 0 5px 0 0
+
+
+
+
+@media (max-width: 993px)
+  header
+    .bottom,
+    .call-block
+      display: none
+    .phone-block
+      height: 105px
+      .phone-link
+        margin-right: 60px
+        white-space: nowrap
+    .logo
+      img
+        height: auto
+    .top
+      padding: 0
+  .bm-burger-button,
+  #mobile-toggle
+    display: block!important
+
+@media (max-width: 400px)
+  header
+    .phone-block
+      display: none!important
+
+  #mobile-toggle
+    top: 50%
+    transform: translateY(-50%)
+

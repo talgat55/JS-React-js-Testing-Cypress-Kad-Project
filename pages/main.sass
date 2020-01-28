@@ -1,0 +1,80 @@
+$main_green: #009160
+
+body,
+html
+  font-family: 'Open Sans', sans-serif
+  font-size: 15px
+  line-height: 1.5
+  background-color: #E5E5E5
+
+
+.link-to-page
+  font-weight: 600
+  font-size: 	1.3333rem
+  text-decoration-line: underline
+  color: #009160
+  display: table
+  margin: 0 auto
+  transition: all .3s
+  &:hover
+    color: #333
+
+.link-alt
+  font-size: 	1.0667rem
+  color: #FFFFFF
+  padding: 14px 23px
+  background: #009160
+  border-radius: 2px
+  margin: 0 auto
+  display: table
+  transition: all .3s
+  &:hover
+    text-decoration: none
+    color: #fff
+    background: #164B84
+
+.button-wrap
+  display: flex
+  position: relative
+  align-items: center
+
+.contacts-page
+  .map-block
+    margin: 80px 0
+
+.spinner-wrap
+  margin: 0 20px 0 0
+  position: absolute
+  right: -65px
+
+.main-wrap
+  overflow-x: hidden
+
+button:active,
+input:active,
+button:focus,
+input:focus
+  outline: none!important
+  box-shadow: none!important
+
+.alert-primary
+  color: #fff!important
+  background-color: red!important
+  border-color: red!important
+
+@media (max-width: 993px)
+  .contacts-page
+    .map-block
+      margin: 0
+      .sub-title
+        margin-top: 0
+
+
+  .hero-section
+    .sub-title
+      &.single-post
+        font-size: 1.5rem
+
+
+
+
