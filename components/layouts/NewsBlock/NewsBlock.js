@@ -26,9 +26,10 @@ class NewsBlock extends React.Component {
 
     render() {
         const {items} = this.state;
+        const countItems = items.length;
         var settings = {
             dots: true,
-            infinite: true,
+            infinite:  countItems > 1  ?  true : false,
             speed: 500,
             arrows: true,
             autoplay: true,
