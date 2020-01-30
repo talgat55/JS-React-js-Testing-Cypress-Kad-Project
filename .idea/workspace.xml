@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a15a9f2-0263-4a6b-ab3b-8433acb0511c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/VisitContactsPage.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/VisitNewsPage.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/VisitPromoPage.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/VisitServicePage.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/VisitServiceUrFolkPage.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/NewsBlock/NewsBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/NewsBlock/NewsBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/actions.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/aliasing.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/assertions.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/connectors.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/cookies.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/cypress_api.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/files.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/local_storage.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/location.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/misc.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/navigation.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/network_requests.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/querying.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/spies_stubs_clocks.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/traversal.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/utilities.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/viewport.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/waiting.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/examples/window.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,44 +15,18 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cypress/integration/VisitNewsPage.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cypress/integration/VisitTeamPage.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="207">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cypress/integration/VisitContactsPage.spec.js">
+        <entry file="file://$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/layouts/NewsBlock/NewsBlock.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -99,13 +47,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/components/layouts/NewsBlock/NewsBlock.js" />
-        <option value="$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js" />
         <option value="$PROJECT_DIR$/cypress/integration/VisitServicePage.spec.js" />
         <option value="$PROJECT_DIR$/cypress/integration/VisitPromoPage.spec.js" />
         <option value="$PROJECT_DIR$/cypress/integration/VisitServiceUrFolkPage.spec.js" />
         <option value="$PROJECT_DIR$/cypress/integration/VisitNewsPage.spec.js" />
         <option value="$PROJECT_DIR$/cypress/integration/VisitTeamPage.spec.js" />
         <option value="$PROJECT_DIR$/cypress/integration/VisitContactsPage.spec.js" />
+        <option value="$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js" />
       </list>
     </option>
   </component>
@@ -123,7 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +93,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,18 +133,19 @@
       <workItem from="1580241004419" duration="2135000" />
       <workItem from="1580244629184" duration="219000" />
       <workItem from="1580245114965" duration="189000" />
-      <workItem from="1580317325005" duration="2898000" />
+      <workItem from="1580317325005" duration="3727000" />
+      <workItem from="1580405551899" duration="4100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5441000" />
+    <option name="totallyTimeSpent" value="10370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26065302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -248,27 +197,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cypress/integration/VisitServiceUrFolkPage.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cypress/integration/VisitNewsPage.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -283,6 +215,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cypress/integration/VisitNewsPage.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
         </state>
       </provider>
     </entry>
