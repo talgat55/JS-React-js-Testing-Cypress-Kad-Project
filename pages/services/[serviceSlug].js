@@ -15,12 +15,15 @@ import MapBlock from "../../components/layouts/MapBlock/MapBlock";
 import PartBlock from "../../components/layouts/ServiceBlock/Part/PartBlock";
 import DocBlock from "../../components/layouts/ServiceBlock/Part/DocBlock";
 import {connect} from "react-redux";
+
 import {
-    ACTIVE_OVERLAY_STATE,
-    ACTIVE_SERVICE_MODAL_STATE,
-    CHANGE_SERVICE_STATE,
-    CHANGE_SERVICE_TAB_STATE,
-} from "../../types";
+    activeOverlayState,
+    changeServiceState,
+    changeServiceTabState,
+    activeServiceModalState
+
+}
+    from '../../actions/main';
 
 class ServicePost extends React.Component {
     constructor(props) {
@@ -215,16 +218,14 @@ ServicePost.getInitialProps = async (params) => {
 const mapDispatchToProps = dispatch => {
     return {
         ChangeServiceState: (e) => {
-            dispatch({type: CHANGE_SERVICE_STATE, payload: e})
+            dispatch(changeServiceState(e))
         },
         ChangeServiceTabState: (e) => {
-            dispatch({type: CHANGE_SERVICE_TAB_STATE, payload: e})
+            dispatch(changeServiceTabState(e))
         },
-
-
         EnableServiceModal: () => {
-            dispatch({type: ACTIVE_SERVICE_MODAL_STATE, payload: true});
-            dispatch({type: ACTIVE_OVERLAY_STATE, payload: true})
+            dispatch(activeServiceModalState);
+            dispatch(activeOverlayState)
         }
     };
 };

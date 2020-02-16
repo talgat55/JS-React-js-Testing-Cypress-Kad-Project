@@ -4,10 +4,11 @@ import InputMask from 'react-input-mask';
 import {sendFeedbackRequestLinkToUs} from '../../api/form/form';
 import {connect} from "react-redux";
 import {
-    ACTIVE_SUCCESS_MODAL_STATE,
-    DEACTIVE_SUCCESS_MODAL_STATE,
-    DEACTIVE_SERVICE_MODAL_STATE
-} from "../../../types";
+    activateSuccessModalState,
+    deactivateSuccessModalState,
+    deactivateServiceMadalState
+}
+from '../../../actions/main';
 import {Spinner} from "reactstrap";
 import ym from 'react-yandex-metrika';
 import ReactGA from 'react-ga';
@@ -110,7 +111,7 @@ class FormComponent extends Component {
                         <Input
                             type="text"
                             name="username"
-                            id="name-input"
+                            className="name-input"
                             placeholder="Ваше имя"
                             onChange={this.handleChange}
                             value={username}
@@ -122,10 +123,9 @@ class FormComponent extends Component {
                         <InputMask
                             mask="+9 (999) 999-99-99"
                             name="userphone"
-                            id="phone-input"
                             placeholder="Ваш телефон"
                             onChange={this.handleChange}
-                            className="form-control"
+                            className="phone-input form-control"
                             value={userphone}
                             required
                         />
@@ -164,13 +164,13 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         ChangeStateSuccessModal: () => {
-            dispatch({type: ACTIVE_SUCCESS_MODAL_STATE, payload: true})
+            dispatch(activateSuccessModalState)
         },
         DisableStateSuccessModal: () => {
-            dispatch({type: DEACTIVE_SUCCESS_MODAL_STATE, payload: false})
+            dispatch(deactivateSuccessModalState)
         },
         DisableServiceModal: () => {
-            dispatch({type: DEACTIVE_SERVICE_MODAL_STATE, payload: false})
+            dispatch(deactivateServiceMadalState)
         }
     };
 };

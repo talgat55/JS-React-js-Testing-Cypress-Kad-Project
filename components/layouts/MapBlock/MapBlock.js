@@ -13,7 +13,7 @@ const MapBlock = () => {
     const contactList = [
         [
             {
-                'id': 1,
+                'id': 0,
                 'geo': 'г. Омск, ул. Лермонтова, 171, офис 24, 2-й этаж ',
                 'phones': [
                     '+7 (3812) <span>35-35-75</span>',
@@ -22,7 +22,7 @@ const MapBlock = () => {
                 'workTime': 'Пн-Чт: с 8:30 до 17:30,  Пт: с 8:30 до 16:30 (обед: с 12:00 до 13:00)'
             },
             {
-                'id': 2,
+                'id': 1,
                 'geo': 'г. Омск, ул. 10 лет октября 136, 1-й этаж',
                 'phones': [
                     '+7 (3812) <span>66-61-36</span>',
@@ -33,7 +33,7 @@ const MapBlock = () => {
         ],
        [
            {
-               'id': 3,
+               'id':2,
                'geo': 'с. Троицкое, ул. Октябрьская, 1а, офис 11, 1-й этаж',
                'phones': [
                    '+7 (3812) <span>35-35-85</span>',
@@ -94,18 +94,18 @@ const MapBlock = () => {
                             <div className="list-contacts">
                                 <Slider {...settings}>
                                     {contactList.map((item,index) => (
-                                        <div>
+                                        <>
                                             {
                                                 item.map(value =>(
                                                     <ContactItem
-                                                        key={value.index}
+                                                        key={value.id}
                                                         geo={value.geo}
                                                         phones={value.phones}
                                                         workTime={value.workTime}
                                                     />
                                                 ))
                                             }
-                                        </div>
+                                        </>
                                     ))}
                                 </Slider>
                             </div>

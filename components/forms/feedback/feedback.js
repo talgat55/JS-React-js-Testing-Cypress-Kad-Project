@@ -3,7 +3,7 @@ import {Button, Form, FormGroup, Input} from 'reactstrap';
 import InputMask from 'react-input-mask';
 import {sendFeedbackRequestLinkToUs} from '../../api/form/form';
 import {connect} from "react-redux";
-import {ACTIVE_SUCCESS_MODAL_STATE,DEACTIVE_SUCCESS_MODAL_STATE} from '../../../types';
+import {activateSuccessModalState,deactivateSuccessModalState} from '../../../actions/main';
 import ym from 'react-yandex-metrika';
 import ReactGA from 'react-ga';
 import {Spinner} from "reactstrap";
@@ -121,7 +121,7 @@ class FormComponent extends Component {
                         <Input
                             type="text"
                             name="username"
-                            id="name-input"
+                            className="name-input"
                             placeholder="Ваше имя"
                             onChange={this.handleChange}
                             value={username}
@@ -138,8 +138,7 @@ class FormComponent extends Component {
                         <InputMask
                             mask="+9 (999) 999-99-99"
                             name="userphone"
-                            id="phone-input"
-                            className="form-control"
+                            className="phone-input form-control"
                             placeholder="Ваш телефон"
                             onChange={this.handleChange}
                             value={userphone}
@@ -174,10 +173,10 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         ChangeStateSuccessModal: () => {
-            dispatch({type: ACTIVE_SUCCESS_MODAL_STATE, payload: true})
+            dispatch(activateSuccessModalState)
         },
         DisableStateSuccessModal: () => {
-            dispatch({type: DEACTIVE_SUCCESS_MODAL_STATE, payload: false})
+            dispatch(deactivateSuccessModalState)
         }
 
 

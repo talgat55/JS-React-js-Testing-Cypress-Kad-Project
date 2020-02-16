@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Button, Form, FormGroup, Input, Spinner} from 'reactstrap';
 import InputMask from 'react-input-mask';
 import {sendFeedbackRequestLinkToUs} from "../../api/form/form";
-import {ACTIVE_SUCCESS_MODAL_STATE, DEACTIVE_SUCCESS_MODAL_STATE, DEACTIVE_MODAL_STATE} from "../../../types";
+import {activateSuccessModalState,deactivateSuccessModalState, deactivateModalState} from '../../../actions/main';
 import {connect} from "react-redux";
 import ym from 'react-yandex-metrika';
 import ReactGA from 'react-ga';
@@ -104,7 +104,7 @@ class FormComponent extends Component {
                         <Input
                             type="text"
                             name="username"
-                            id="name-input"
+                            className="name-input"
                             placeholder="Ваше имя"
                             onChange={this.handleChange}
                             value={username}
@@ -116,11 +116,10 @@ class FormComponent extends Component {
                         <InputMask
                             mask="+9 (999) 999-99-99"
                             name="userphone"
-                            id="phone-input"
                             placeholder="Ваш телефон"
                             onChange={this.handleChange}
                             value={userphone}
-                            className="form-control"
+                            className="phone-input form-control"
                             required
                         />
                     </div>
@@ -149,13 +148,13 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         ChangeStateSuccessModal: () => {
-            dispatch({type: ACTIVE_SUCCESS_MODAL_STATE, payload: true})
+            dispatch(activateSuccessModalState)
         },
         DisableStateSuccessModal: () => {
-            dispatch({type: DEACTIVE_SUCCESS_MODAL_STATE, payload: false})
+            dispatch(deactivateSuccessModalState)
         },
         DisableStateModal: () => {
-            dispatch({type: DEACTIVE_MODAL_STATE, payload: false})
+            dispatch(deactivateModalState)
         }
     };
 };

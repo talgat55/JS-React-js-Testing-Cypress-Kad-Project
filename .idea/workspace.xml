@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a15a9f2-0263-4a6b-ab3b-8433acb0511c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/actions/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/forms/feedback/feedback-modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/feedback/feedback-modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/forms/feedback/feedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/feedback/feedback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/forms/service/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/service/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layouts/FeedbackBlock/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/FeedbackBlock/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layouts/MapBlock/MapBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/MapBlock/MapBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/services/[serviceSlug].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services/[serviceSlug].js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +22,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="851">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/forms/feedback/feedback.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/services/[serviceSlug].js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="225" column="35" lean-forward="true" selection-start-line="225" selection-start-column="35" selection-end-line="225" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js">
+        <entry file="file://$PROJECT_DIR$/actions/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="322">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#266#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,6 +72,19 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ACTIVE_OVERLAY_STATE</find>
+      <find>EnableServiceModal</find>
+      <find>#phone-input</find>
+      <find>changeServiceState</find>
+      <find>ClickEvent</find>
+      <find>contactList</find>
+      <find>MapBlock</find>
+      <find>activeServiceModalState</find>
+      <find>activeOverlayState</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +100,13 @@
         <option value="$PROJECT_DIR$/cypress/integration/VisitTeamPage.spec.js" />
         <option value="$PROJECT_DIR$/cypress/integration/VisitContactsPage.spec.js" />
         <option value="$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js" />
+        <option value="$PROJECT_DIR$/components/layouts/FeedbackBlock/style.sass" />
+        <option value="$PROJECT_DIR$/components/forms/feedback/feedback.js" />
+        <option value="$PROJECT_DIR$/components/forms/feedback/feedback-modal.js" />
+        <option value="$PROJECT_DIR$/components/forms/service/service.js" />
+        <option value="$PROJECT_DIR$/components/layouts/MapBlock/MapBlock.js" />
+        <option value="$PROJECT_DIR$/pages/services/[serviceSlug].js" />
+        <option value="$PROJECT_DIR$/actions/main.js" />
       </list>
     </option>
   </component>
@@ -81,13 +134,31 @@
             <path>
               <item name="CypressTestKadastr" type="b2602c69:ProjectViewProjectNode" />
               <item name="CypressTestKadastr" type="462c0819:PsiDirectoryNode" />
-              <item name="cypress" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CypressTestKadastr" type="b2602c69:ProjectViewProjectNode" />
               <item name="CypressTestKadastr" type="462c0819:PsiDirectoryNode" />
-              <item name="cypress" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CypressTestKadastr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CypressTestKadastr" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CypressTestKadastr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CypressTestKadastr" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="MapBlock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CypressTestKadastr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CypressTestKadastr" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -101,6 +172,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -134,18 +206,23 @@
       <workItem from="1580244629184" duration="219000" />
       <workItem from="1580245114965" duration="189000" />
       <workItem from="1580317325005" duration="3727000" />
-      <workItem from="1580405551899" duration="4100000" />
+      <workItem from="1580405551899" duration="5835000" />
+      <workItem from="1581536043855" duration="386000" />
+      <workItem from="1581566436620" duration="609000" />
+      <workItem from="1581650389215" duration="1925000" />
+      <workItem from="1581658446376" duration="315000" />
+      <workItem from="1581873601362" duration="5213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10370000" />
+    <option name="totallyTimeSpent" value="20553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26065302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27670172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -161,7 +238,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Migrations" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.28289473" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -225,17 +302,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/types.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
+        <state relative-caret-position="-69" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cypress/integration/VisiteHomePage.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="184">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blog/[blogSlug].js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/layouts/FeedbackBlock/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/forms/feedback/feedback-modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-806">
+          <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/forms/service/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="112" column="43" lean-forward="true" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/layouts/MapBlock/ContactItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/layouts/MapBlock/MapBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3841">
+          <caret line="172" column="18" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#6219#7173#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/forms/feedback/feedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/services/[serviceSlug].js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="225" column="35" lean-forward="true" selection-start-line="225" selection-start-column="35" selection-end-line="225" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
